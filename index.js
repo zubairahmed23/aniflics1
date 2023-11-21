@@ -11,7 +11,7 @@ app.listen(PORT, err => {
         console.log(err.message);
     }
 });
-
+/* Hello */
 app.get('/', (req, res) => {
     res.redirect('/main');
 });
