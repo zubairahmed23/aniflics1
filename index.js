@@ -4,7 +4,7 @@ const app = express();
 const PORT = 4000;
 
 app.set('view engine', 'ejs');
-app.set('views', __dirname+'/../views');
+app.set('views', __dirname+'./views');
 
 app.listen(PORT)
 /* Hello */
